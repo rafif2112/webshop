@@ -149,7 +149,9 @@ footer {
     height: 300px;
 }
 footer .kiri {
-    width: 40%;
+    width: 60%;
+    text-align: justify;
+    margin-left: 100px;
 }
 footer .kiri h1 {
     font-size: 35px;
@@ -171,6 +173,14 @@ footer h1 {
 footer h2 {
     font-size: 18px;
     font-weight: 100;
+}
+footer .akhir {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 100px;
+}
+footer .tengah, .tengah2, .kanan{
+    margin: 10px 20px;
 }
 .terbawah {
     display: flex;
