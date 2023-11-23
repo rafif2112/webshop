@@ -1,0 +1,180 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+header {
+    height: 850px;
+    background-color: rgb(0, 0, 0);
+}
+.tinggi {
+    display: flex;
+    justify-content: center;
+}
+.atas {
+    height: 70px;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    width: 85%;
+}
+header nav ul {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 25px;
+}
+nav ul li a {
+    margin: 20px;
+    color: black;
+}
+header .logo {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -65px;
+    margin-right: 30px;
+    font-style: italic;
+}
+article .teks1 {
+    font-size: 40px;
+    color: white;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+article .kursi {
+    display: flex;
+    justify-content: end;
+    margin-right: 120px;
+    margin-top: -150px;
+}
+article .kursi img {
+    height: 400px;
+    border-radius: 100px 0px 100px 0px;
+}
+article .kursi2 img {
+    height: 280px;
+    width: 280px;
+    border-radius: 150px 150px 0px 0px;
+    margin-top: -150px;
+    margin-left: 120px;
+} 
+button {
+    border: solid 1px black;
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px 20px 15px 20px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 600;
+}
+button i {
+    margin-left: 25px;
+}
+.bagian1 {
+    height: 380px;
+    align-items: center;
+    margin-top: 50px;
+}
+.bagian1 .title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.bagian1 .title h1 {
+    font-size: 40px;
+}
+.bagian1 .title h1 span{
+    font-size: 25px;
+}
+.bagian1 .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.bagian1 .column .kursi3 {
+    display: flex;
+    line-height: 5px;
+    align-items: center;
+}
+.bagian1 .column .kursi3 img {
+    width: 100px;
+    padding: 0px 30px 0px 30px;
+}
+
+.bagian2 {
+    background-color: rgb(173, 164, 164);
+}
+.bagian2 .title {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.bagian2 .list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 80px;
+}
+.bagian2 .list .kursi4 {
+    background: #000000;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    margin: 30px 24px;
+}
+.bagian3 {
+    display: flex;
+    justify-content: center;
+}
+.bagian3 .tengah p {
+    text-align: justify;
+}
+.bagian3 .kursi5 img {
+    width: 400px;
+}
+.bagian3 .tengah {
+    width: 50%;
+}
+.bagian3 .tengah1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+footer .kiri {
+    width: 40%;
+}
+footer .kiri h1 {
+    font-size: 35px;
+    color: yellow;
+}
+footer .kiri h1 span {
+    color: rgb(255, 255, 255);
+}
+footer .kiri ol a {
+    color: white;
+}
+footer .kiri .icon {
+    display: flex;
+    font-size: 30px;
+}
+footer h1 {
+    font-size: 25px;
+}
+footer h2 {
+    font-size: 18px;
+    font-weight: 100;
+}
+.terbawah {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
